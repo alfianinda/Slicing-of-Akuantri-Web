@@ -6,22 +6,24 @@ export default class Content3 extends Component {
         return (
             <div>
                 <div className="header2">
-                    <h1>Test<u>imo</u>nial</h1>
+                    <h1>Testimonial</h1>
+                    <hr style={{width: '50px', marginLeft: '585px', marginTop: '-15px', border: '1px solid rgb(91, 204, 91)'}} />
                     <p>Mereka yang telah menghemat waktunya untuk mengantri.</p>
                 </div>
 
                 <div className="grid-container2">
                     <div className="grid-item">
-                        <img src="assets/gambarOrang1.png" alt="gambarOrang1" />
+                        <img src={require("./../assets/gambarOrang1.png")} alt="gambarOrang1" />
                     </div>
                     <div className="grid-item">
-                        <img src="assets/gambarOrang2.png" alt="gambarOrang2" />
+                        <img src={require("./../assets/gambarOrang2.png")} alt="gambarOrang2" />
                     </div>
                     <div className="grid-item">
-                        <img src="assets/gambarOrang3.png" alt="gambarOrang2" />
+                        <img src={require("./../assets/gambarOrang3.png")} alt="gambarOrang2" />
                     </div>  
                 </div>
             </div>
         )
     }
 }
+

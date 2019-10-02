@@ -17,17 +17,17 @@ export default class Footer extends Component {
 
                     <div className="grid-item2">
                         <p style={{color: 'black'}}><b>LINKS</b></p>
-                        <ul className="list" style={{color: '#4CAF50'}}>
-                            <li>Tentang Kami</li>
-                            <li>Promo</li>
-                            <li>Karir</li>
-                            <li>Hubungi Kami</li>
-                            <li>Syarat &amp; Ketentuan</li>
+                        <ul className="list">
+                            <li><a href="/">Tentang Kami</a></li>
+                            <li><a href="/">Promo</a></li>
+                            <li><a href="/">Karir</a></li>
+                            <li><a href="/">Hubungi Kami</a></li>
+                            <li><a href="/">Syarat &amp; Ketentuan</a></li>
                         </ul>
                     </div>
                     <div className="grid-item2">
                         <p style={{color: 'black'}}><b>DOWNLOAD APLIKASI</b></p>
-                        <img src="assets/logo1.png" style={{height: '200px'}} alt="logo1" />
+                        <img src={require("./../assets/logo1.png")} style={{height: '200px'}} alt="logo1" />
                     </div>  
                 </div>
             </div>

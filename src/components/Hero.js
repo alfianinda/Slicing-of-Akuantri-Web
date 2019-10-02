@@ -15,7 +15,7 @@ export default class Hero extends Component {
                     </p>
                     
                     <div class="flex-logo">
-                        <div><img src="assets/logo1.png" alt="logo1" class="kotakHitam"/></div>
+                        <div><img src={require("./../assets/logo1.png")} alt="logo1" class="kotakHitam"/></div>
                         <button class="kotakPutih"><b>PELAJARI &#8594;</b></button>
                     </div>
 

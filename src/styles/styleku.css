@@ -8,8 +8,16 @@ a {
   color:black;
 }
 
-a:active {
+a:hover {
   color: green;
+}
+
+.list li a {
+  color: green;
+}
+
+.list li a:hover {
+  text-decoration: underline;
 }
 
 .buttoncret {
@@ -190,6 +198,20 @@ a:active {
   color:gray;
 }
 
-
+@media screen and (max-width: 700px) {
+  .flex-container,
+  .header,
+  .grid-container,
+  .header1,
+  .grid-container1,
+  .header2,
+  .grid-container2,
+  .grid-container3,
+  .grid-container4,
+  .grid-item2
+   {   
+    flex-direction: column;
+  }
+}
 
 

@@ -7,7 +7,8 @@ export default class Content extends Component {
             <div>
                 <div className="grid-container" id="page2">
                     <div className="left">
-                    <h1>&nbsp;&nbsp;&nbsp;&nbsp;<u>Ber</u>bagai Jenis Antrian</h1>
+                    <h1>&nbsp;&nbsp;&nbsp;&nbsp;Berbagai Jenis Antrian</h1>
+                    <hr style={{width: '50px', marginLeft: '30px', marginTop: '-15px', border: '1px solid rgb(91, 204, 91)'}} />
                     <h3 style={{color: 'grey'}}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jangan habiskan waktu Anda untuk mengantri.</h3>
                     <ul style={{marginTop: '30px', listStyleType: 'none'}}>
                         <li>
@@ -49,9 +50,11 @@ export default class Content extends Component {
                         </li>
                     </ul>
                     </div>
-                    <div className="right"><img src="assets/gambarHP.png" alt="gambarHP" /></div>
+                    <div className="right"><img src={require("./../assets/gambarHP.png")} alt="gambarHP" /></div>
                 </div>
             </div>
         )
     }
 }
+
+

@@ -6,7 +6,8 @@ export default class Content2 extends Component {
         return (
             <div>
                 <div className="header1" id="page3">
-                <h1>Frequently <u>Ask</u> Questions</h1>
+                <h1>Frequently Ask Questions</h1>
+                <hr style={{width: '50px', marginLeft: '570px', marginTop: '-15px', border: '1px solid rgb(91, 204, 91)'}} />
                 <p>Pertanyaan yang Sering ditanyakan Tentang Akuantri.</p>
                 </div>
 

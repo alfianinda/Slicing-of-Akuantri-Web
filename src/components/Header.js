@@ -7,12 +7,12 @@ export default class Header extends Component {
             <div>
                 <div className="flex-container sticky">
                     <div style={{flexGrow: 1}}>
-                    <img src="assets/akuantri-logo.png" alt="akuantri-logo" />
+                    <img src={require("./../assets/akuantri-logo.png")} alt="akuantri-logo" />
                     </div>
                     <div style={{flexGrow: 3}} /> 
                     <div style={{flexGrow: 8}} className="flex-container">
                     <ul>
-                        <li><a href="#page1" style={{color: '#4CAF50'}}>Home</a></li>
+                        <li><a href="#page1">Home</a></li>
                         <li><a href="#page2">Layanan</a></li> 
                         <li><a href="#page3">FAQ</a></li>
                         <li><a href="https://akuantri.com/blog/">Blog</a></li>
